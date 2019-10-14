@@ -1,12 +1,12 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 
-#define FIREBASE_HOST "dreamoney-57f5f-580ed.firebaseio.com"
-#define FIREBASE_AUTH "6tv8gs0bcoFJB0kaAuCCiiwSy6TEhCWbG8XLrnMr"
+#define FIREBASE_HOST "yourfirebasehost"
+#define FIREBASE_AUTH "yourfirebaseauth"
 #define TRIGGERPIN D1
 #define ECHOPIN D2
-#define ssid  "Dreamola"
-#define pass  "nananana"
+#define ssid  "yourssid"
+#define pass  "yourpass"
 long duration;
   int distance;
 void setup() {
